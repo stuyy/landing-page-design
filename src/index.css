@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Poppins";
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#main-content,
+#secondary-content {
+  box-sizing: border-box;
+  height: 100%;
+  background-color: #3e3e3e;
+  background-image: url("../assets/wave_light.svg");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  padding-top: 50px;
+}
+
+#secondary-content {
+  background-color: #eaeaea;
+  background-image: url("../assets/wave_dark.svg");
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav {
+  width: 70%;
+  display: flex;
+  font-size: 22px;
+  color: #eaeaea;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 25px;
+  align-items: center;
+  box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.35);
+  border-radius: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  padding: 25px;
+}
+
+nav i {
+  padding: 5px;
+  padding-right: 25px;
+}
+
+.content-body {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  padding: 25px;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+
+.content-body h1 {
+  font-size: 64px;
+  color: #eaeaea;
+  font-weight: lighter;
+}
+
+.content-body aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#button {
+  background-color: #eaeaea;
+  font-size: 22px;
+  padding: 15px;
+  width: 180px;
+  text-align: center;
+  border-radius: 35px;
+  box-shadow: 0px 0px 25px 1px rgba(0, 0, 0, 0.25);
+}
+
+#card-container {
+  display: flex;
+  width: 70%;
+  height: 350px;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.card {
+  width: 300px;
+  box-sizing: border-box;
+  padding: 35px;
+  height: 350px;
+  border-radius: 25px;
+  font-size: 18px;
+  box-shadow: 0px 5px 25px 1px rgba(0, 0, 0, 0.25);
+}
+
+.card:nth-child(1) {
+  background-color: white;
+}
+
+.card:nth-child(2) {
+  background-color: #626262;
+  color: white;
+}
+
+.card:nth-child(3) {
+  background-color: #3d3d3d;
+  color: white;
+}
+
+footer {
+  height: 300px;
+  background-color: #3e3e3e;
+  justify-content: center;
+}
+
+#footer-links-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  color: #eaeaea;
+  margin: 0 auto;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer h1 {
+  font-size: 24px;
+  font-weight: lighter;
+  color: #eaeaea;
+}
+
+#footer-icons {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#footer-icons i {
+  color: #eaeaea;
+  font-size: 32px;
+  margin-right: 10px;
+}
